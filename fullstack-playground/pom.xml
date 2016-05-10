@@ -4,9 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>rdecuir</groupId>
     <artifactId>fullstack-playground</artifactId>
-    <version>3.1.0</version>
+    <version>0.0.1</version>
     <packaging>pom</packaging>
     
+    <modules>
+        <module>example-service</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.7.5</slf4j.version>
@@ -39,5 +43,4 @@
             </plugin>
         </plugins>
     </build>
-    <modules></modules>
 </project>
